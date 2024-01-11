@@ -1,0 +1,74 @@
+<MyRoot>:
+
+    random_label: random_label
+
+    FloatLayout:
+        
+        orientation: "vertical"
+        Label:
+            text: "My Grow"
+            font_size: 64
+            color: 0.92,0.45,0
+            size: 0.1,0.1
+            size_hint_x: None
+            size_hint_y: None
+            pos: 100, 550  
+
+                  
+        Label:
+            id: random_label
+            text: "Motherfuckers"
+            font_size: 64
+            size: 0.1,0.1
+            size_hint_x: None
+            size_hint_y: None
+            pos: 20, 550
+        
+        DropDown:
+            pos: 400,300
+            Button:
+                text: 'Home'
+                size_hint_y: None
+                height: 20
+                
+            Label:
+                text: 'New Grow'
+                size_hint_y: None
+                height: 20
+            Button:
+                text: 'My Grow Setup'
+                size_hint_y: None
+                height: 44
+                
+
+
+
+        Button:
+            text: "New Grow"
+            font_size: 32
+            size: 0.1,0.1
+            on_press: root.generate_text()
+            size_hint_x: None
+            size_hint_y: None
+
+        Button:
+            text: "My Grow Setup"
+            font_size: 32
+            size: 0.1,0.1
+            size_hint_x: None
+            size_hint_y: None
+            
+
+        Button:
+            text: "Grow Collection"
+            font_size: 32
+            size: 0.1,0.1
+            size_hint_x: None
+            size_hint_y: None
+
+        Button:
+            text: "Current Grow"
+            font_size: 32
+            size: 0.1,0.1
+            size_hint_x: None
+            size_hint_y: None
